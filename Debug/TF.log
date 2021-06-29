@@ -1,0 +1,14 @@
+﻿  TF.cpp
+c:\users\paolo\desktop\tf\tf\entidad.h(111): warning C4018: '<': no coinciden signed/unsigned
+c:\users\paolo\desktop\tf\tf\entidad.h(229): warning C4018: '<': no coinciden signed/unsigned
+c:\users\paolo\desktop\tf\tf\entidad.h(276): warning C4018: '<': no coinciden signed/unsigned
+c:\users\paolo\desktop\tf\tf\entidad.h(364): warning C4018: '<': no coinciden signed/unsigned
+c:\users\paolo\desktop\tf\tf\entidad.h(391): warning C4018: '<': no coinciden signed/unsigned
+c:\users\paolo\desktop\tf\tf\tf.cpp(47): warning C4018: '<': no coinciden signed/unsigned
+c:\users\paolo\desktop\tf\tf\tf.cpp(57): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+c:\users\paolo\desktop\tf\tf\tf.cpp(147): warning C4018: '<': no coinciden signed/unsigned
+c:\users\paolo\desktop\tf\tf\tf.cpp(162): warning C4018: '<': no coinciden signed/unsigned
+c:\users\paolo\desktop\tf\tf\tf.cpp(167): warning C4018: '<': no coinciden signed/unsigned
+c:\users\paolo\desktop\tf\tf\tf.cpp(217): warning C4018: '<': no coinciden signed/unsigned
+c:\users\paolo\desktop\tf\tf\entidad.h(301): warning C4715: 'Entidad::conseguirComponente': no todas las rutas de acceso de control devuelven un valor
+  TF.vcxproj -> C:\Users\PAOLO\Desktop\TF\Debug\TF.exe
