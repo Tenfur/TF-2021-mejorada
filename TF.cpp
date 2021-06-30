@@ -369,7 +369,8 @@ int main() {
 						if (nombre[size - 1] == dato) {
 							cout << a->getNombre() << endl;
 						}
-						//objetoIndexacion->mostrarFiltroPorChar(dato, opcionCommit);
+					};
+					objetoIndexacion->mostrarFiltroPorChar(dato, opcionCommit, criterioFinalizaCon);
 					_getch();
 				}
 				else if (opcionFiltrado == 4) {
@@ -386,7 +387,7 @@ int main() {
 							cout << a->getNombre() << endl;
 						}
 					};
-					//objetoIndexacion.at(opcionCommit - 1)->mostrar(criterioContenidoEn);
+					objetoIndexacion->mostrarFiltro(dato, opcionCommit, criterioContenidoEn);
 					_getch();
 				}
 				else if (opcionFiltrado == 5) {
@@ -403,7 +404,7 @@ int main() {
 							cout << a->getNombre() << endl;
 						}
 					};
-					//objetoIndexacion.at(opcionCommit - 1)->mostrar(criterioNoEstaContenidoEn);
+					objetoIndexacion->mostrarFiltro(dato, opcionCommit, criterioNoEstaContenidoEn);
 					_getch();
 				}
 			} while (opcionFiltrado != 6);
